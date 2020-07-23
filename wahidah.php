@@ -2,18 +2,18 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function1.php";
 echo "\n";
-echo "\e[96m            (SELAMAT DATANG BOSKUHH $input)               \n";
+echo "\e[96m            (SELAMAT DATANG PT MAJU BERSAMA $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("yellow","[•] Time : ".date('[d-m-Y] [H:i:s]')." \n");
-echo color("purple","[•] WAITING PROSESSS ..... \n");
-echo color("yellow","[•] Ramz Tutorial Channel \n");
-echo color("green","[•] CARA MENULIS NOMOR PAKAI 62xxxxxxxxxx \n");
-echo color("red","[•] KALAU GK BISA PAKE AJA 08xxxxxxxx \n");
-echo color("nevy","[•] SCRIPT GRATIS RAMZ TUTORIAL \n");
-echo color("blue","[•] PAIDOMU MOTIVASIKU 🤣 \n");
-echo color("green","[•] JANGAN LUPA BERDOA SEBELUM CLAIM \n");
-echo color("blue","[•] SUROBOYO LOST BOJOMU SEMANGATKU WKWKW \n");
+echo color("purple","[•] DIREKTUR KABAYAN ..... \n");
+echo color("yellow","[•] SEKRETARIS BANG JALI \n");
+echo color("green","[•] BENDAHARA DATIL ALIYAH \n");
+echo color("red","[•] TIM IT RADEN MAS ALEA \n");
+echo color("nevy","[•] TIM DORR UCLUK REBELL \n");
+echo color("blue","[•] TIM LOBI MASDAR \n");
+echo color("green","[•] TIM KOPI SAFA xx SANTI \n");
+echo color("blue","[•] BOJOMU SEMANGATKU WKWKW \n");
 echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
 // function change(){
         $nama = nama();
@@ -57,9 +57,9 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 REEDEM VOUCHER 🛠▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("nevy","🔒▶️ GOPUD 1");
-        echo "\n".color("yellow","⏳▶️ Please wait.... Skip");
+        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 RENDEEM JIMAT 🛠▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("nevy","🔒▶️ SEMAR MESEM");
+        echo "\n".color("yellow","⏳▶️ Sabar Cox.... Skip");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(20);
@@ -72,8 +72,8 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
-        echo "\n".color("nevy","🔒▶️ GOPUD 2");
-        echo "\n".color("yellow","⏳▶️ Please wait");
+        echo "\n".color("nevy","🔒▶️ Kenting Mungil...");
+        echo "\n".color("yellow","⏳▶️ Enteni Bray..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(20);
@@ -86,8 +86,8 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
-        echo "\n".color("nevy","🔒▶️ GOPUD 3");
-        echo "\n".color("yellow","⏳▶️ Please wait");
+        echo "\n".color("nevy","🔒▶️ AJI SEGORO GENI");
+        echo "\n".color("yellow","⏳▶️ Tuyul Kaplak..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -95,8 +95,8 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         $code1 = request2('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓▶️ Message: ".$message);
-        echo "\n".color("nevy","🔒▶️ GOPUD 4");
-        echo "\n".color("yellow","⏳▶️ Please wait");
+        echo "\n".color("nevy","🔒▶️ PASRAH ..");
+        echo "\n".color("yellow","⏳▶️ Pan Pimen Maning..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
