@@ -12,7 +12,7 @@ echo color("green","[•] BENDAHARA DATIL ALIYAH \n");
 echo color("red","[•] TIM IT RADEN MAS ALEA \n");
 echo color("nevy","[•] TIM DORR UCLUK REBELL \n");
 echo color("blue","[•] TIM LOBI MASDAR \n");
-echo color("green","[•] TIM KOPI SAFA xx SANTI \n");
+echo color("green","[•] TIM KOPI WARNO SURONO \n");
 echo color("blue","[•] BOJOMU SEMANGATKU WKWKW \n");
 echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
 // function change(){
@@ -45,21 +45,21 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         $register = request("/v5/customers", null, $data);
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
-        echo color("green","📶▶️ Kode verifikasi sudah di kirim")."\n";
+        echo color("green","📶▶️ Kode wis di kirim aja ngantuk No")."\n";
         otp:
-        echo color("purple","💬▶️ Otp : ");
+        echo color("purple","💬▶️ Anjingna Noo : ");
         $otp = trim(fgets(STDIN));
-        $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"bea6fb55-f507-4273-9045-9d555e79ea1d"}';
+        $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"8ma6fb55-f507-4273-9045-9d555e79ea1d"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
         if(strpos($verif, '"access_token"')){
-        echo color("green","✔️▶️ Berhasil mendaftar\n");
+        echo color("green","✔️▶️ Alhamdulillah Babar Noo\n");
         $token = getStr('"access_token":"','"',$verif);
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 RENDEEM JIMAT 🛠▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("nevy","🔒▶️ SEMAR MESEM");
-        echo "\n".color("yellow","⏳▶️ Sabar Cox.... Skip");
+        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬🛠 HIDUP SEHAT ALA WARNO 🛠▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("nevy","🔒▶️ GOYANG MANGG");
+        echo "\n".color("yellow","⏳▶️ aahhhaaahhhhh.... Skip");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(20);
@@ -72,8 +72,8 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
-        echo "\n".color("nevy","🔒▶️ Kenting Mungil...");
-        echo "\n".color("yellow","⏳▶️ Enteni Bray..");
+        echo "\n".color("nevy","🔒▶️ SEDOT MANGG...");
+        echo "\n".color("yellow","⏳▶️ uhhhuhhhuuuuhhh..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(20);
@@ -86,8 +86,8 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
-        echo "\n".color("nevy","🔒▶️ AJI SEGORO GENI");
-        echo "\n".color("yellow","⏳▶️ Tuyul Kaplak..");
+        echo "\n".color("nevy","🔒▶️ CIPOK MANGGG");
+        echo "\n".color("yellow","⏳▶️ mmmuuuaachhhh..");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -175,11 +175,11 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
                                         $debug['text'] = $pesan;
                                         $debug['respon'] = json_decode($datas, true);
          setpin:
-         echo "\n".color("purple","🔧▶️ SET PIN SEKLAIAN BIAR AMAN !!!: y/n ");
+         echo "\n".color("purple","🔧▶️ BAYAR OWH AJA LUNGA BAE !!!: y/n ");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN MU = 181818 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
+         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN MU = 885522 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
          $data2 = '{"pin":"181818"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
@@ -194,15 +194,15 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
          }
          }
          }else{
-         echo color("red","-] Otp yang anda input salah");
+         echo color("red","-] salah manjing kamar");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("purple","!] Silahkan input kembali\n");
+         echo color("purple","!] metu maning golet liane\n");
          goto otp;
          }
          }else{
-         echo color("red","-] Nomor sudah teregistrasi");
+         echo color("red","-] Pada Lanange");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("purple","!] Silahkan registrasi kembali\n");
+         echo color("purple","!] Silahkan Golet sing Wedo\n");
          }
 //  }
 
