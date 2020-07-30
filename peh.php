@@ -49,7 +49,7 @@ echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
         otp:
         echo color("purple","💬▶️ Anjingna Noo : ");
         $otp = trim(fgets(STDIN));
-        $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"8ma6fb55-f507-4273-9045-9d555e79ea1d"}';
+        $data1 = '{"client_name":"gojek:cons:android","data":{"otp":"' . $otp . '","otp_token":"' . $otptoken . '"},"client_secret":"4370e0d2-0a9b-46b4-9049-d3e924e73db9"}';
         $verif = request("/v5/customers/phone/verify", null, $data1);
         if(strpos($verif, '"access_token"')){
         echo color("green","✔️▶️ Alhamdulillah Babar Noo\n");
